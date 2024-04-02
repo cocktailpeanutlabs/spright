@@ -2,7 +2,7 @@ const path = require('path')
 module.exports = {
   version: "1.5",
   title: "spright",
-  description: "a framework to improve the spatial consistency of text-to-image models WITHOUT compromising their fidelity aspects https://huggingface.co/spaces/SPRIGHT-T2I/SPRIGHT-T2I",
+  description: "[NVIDIA ONLY] a framework to improve the spatial consistency of text-to-image models WITHOUT compromising their fidelity aspects https://huggingface.co/spaces/SPRIGHT-T2I/SPRIGHT-T2I",
   icon: "icon.webp",
   menu: async (kernel) => {
     let installing = await kernel.running(__dirname, "install.js")
